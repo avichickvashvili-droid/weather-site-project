@@ -22,6 +22,8 @@ const range = (
 const app = express();
 const Port = 3000;
 
+//localhost:3000/api/weather
+//localhost:3000/
 app.use(express.json());
 
 app.get('/', async (req: Request, res: Response) => {
