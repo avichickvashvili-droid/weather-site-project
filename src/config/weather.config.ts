@@ -6,3 +6,5 @@ export const weatherParams = {
   daily: 'weather_code,temperature_2m_max,temperature_2m_min',
   forecast_days: 14,
 };
+
+export const weatherApiUrl = 'https://api.open-meteo.com/v1/forecast';

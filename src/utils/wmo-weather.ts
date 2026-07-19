@@ -28,7 +28,7 @@ type WmoWeatherCode =
   | 96
   | 99;
 
-interface WeatherDetails {
+export interface WeatherDetails {
   readonly description: string;
   readonly group: string; // Helpful for UI styling or choosing icons
 }
